@@ -7,7 +7,7 @@ v = 32; // num trails, num particles per trail & num nodes in heart path
 M = Math;
 R = M.random;
 C = M.cos;
-Y = 6.3;// close to 44/7 or Math.PI * 2 - 6.3 seems is close enough. 
+Y = 6.29;// close to 44/7 or Math.PI * 2 - 6.3 seems is close enough. 
 for( i = 0; i <Y; i+= .2 ) { // calculate heart nodes, from http://mathworld.wolfram.com/HeartCurve.html
 	h.push([
 		O/2 + 180*M.pow(M.sin(i), 3),
